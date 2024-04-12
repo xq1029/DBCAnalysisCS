@@ -4,3 +4,9 @@ D:\Project\VS2013\CS\DBCAnalysis\DBCAnalysis\bin\Debug\DBCAnalysis.dll
 D:\Project\VS2013\CS\DBCAnalysis\DBCAnalysis\bin\Debug\DBCAnalysis.pdb
 D:\Project\VS2013\CS\DBCAnalysis\DBCAnalysis\obj\Debug\DBCAnalysis.dll
 D:\Project\VS2013\CS\DBCAnalysis\DBCAnalysis\obj\Debug\DBCAnalysis.pdb
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\bin\Debug\DBCAnalysis.dll
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\bin\Debug\DBCAnalysis.pdb
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\obj\Debug\DBCAnalysis.csproj.AssemblyReference.cache
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\obj\Debug\DBCAnalysis.csproj.CoreCompileInputs.cache
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\obj\Debug\DBCAnalysis.dll
+D:\GITHUB\DBCAnalysisCS\DBCAnalysis\obj\Debug\DBCAnalysis.pdb

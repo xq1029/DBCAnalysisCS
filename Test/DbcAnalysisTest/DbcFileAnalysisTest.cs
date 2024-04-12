@@ -13,7 +13,7 @@ namespace Test.DbcAnalysisTest
         {
 
             DbcFileAnalysis dbcFileAnalysis = new DbcFileAnalysis();
-            string path = "D:\\Project\\Test\\DBC\\THJS-TXXY-0118.dbc";//Console.ReadLine();
+            string path = "D:\\MyWork\\采集器\\HK2010(4V+4T).dbc";//Console.ReadLine();
             dbcFileAnalysis.SetDbcFile(path);
             dbcFileAnalysis.Execute();
             return true;

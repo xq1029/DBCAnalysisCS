@@ -1,10 +1,12 @@
-﻿using System;
+﻿using DBCAnalysis;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Test.CoreTest.DbcAnalysisMachineManage;
 using Test.DbcAnalysisTest;
+using Test.DbcAnalysisTest.BitTimingDefinitionTest;
 using Test.DbcAnalysisTest.CommentDefinitions;
 using Test.DbcAnalysisTest.EnvironmentVariableDefinitions;
 using Test.DbcAnalysisTest.MessageDefinitions;
@@ -67,24 +69,28 @@ namespace Test
             //ITest test = new AttributeValueForObjectAnalysisMachineTest();
             //test.TestExcute();
 
-            //ITest test = new DbcAnalysisMachinePoolTest();
+            // ITest test = new DbcAnalysisMachinePoolTest();
             //test.TestExcute();
 
-            //ITest test = new DbcFileAnalysisTest();
-            //test.TestExcute();
-            int[] a = new int[] { 1, 2, 3 };
-            for(int i=0;i<3;i++)
-            {
-                Console.Write(a[i] + ",");
-            }
-            Console.Write("\r\n");
-            test(a);
-            for (int i = 0; i < 3; i++)
-            {
-                Console.Write(a[i] + ",");
-            }
-            Console.Write("\r\n");
+            ITest test = new DbcFileAnalysisTest();
+            test.TestExcute();
+
+            //int[] a = new int[] { 1, 2, 3 };
+            //for(int i=0;i<3;i++)
+            //{
+            //    Console.Write(a[i] + ",");
+            //}
+            //Console.Write("\r\n");
+            //test(a);
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.Write(a[i] + ",");
+            //}
+            //Console.Write("\r\n");
             Console.ReadKey();
+
+
+
         }
         private static void test(int[] a)
         {

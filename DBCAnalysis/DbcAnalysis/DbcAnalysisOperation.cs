@@ -91,7 +91,7 @@ namespace DBCAnalysis.DbcAnalysis
                 return true;
             }
             // 获取关键字
-            string keyWord = this.getKeyWordByLine(line);
+            string keyWord = this.getKeyWordByLine(subLine);
             if(keyWord == null)
             {
                 return true;
